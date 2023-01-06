@@ -17,10 +17,21 @@ public class Problema1 {
     public static void main(String[] args) {
         int[][] informacion = {{1, 2, 3}, {10, 20, 30}, {100, 200, 300}};
         imprimirDatos(informacion);
+
     }
 
     public static void imprimirDatos(int[][] datos) {
+        String cadena = "";
+        for (int f = 0; f < datos.length; f++) {
+            for (int c = 0; c < datos[f].length; c++) {
+                if (datos[f][c] % 2 == 0) {
+                    cadena = String.format("%s%s\n", cadena, datos[f][c]);
 
+                }
+            }
+
+        }
+        System.out.printf(cadena);
     }
 
 }
