@@ -35,3 +35,6 @@ public class Problema1 {
     }
 
 }
+//INTEGRANTES
+//Denis Ruiz
+//Steveen Cuenca

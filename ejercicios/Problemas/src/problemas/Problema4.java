@@ -48,6 +48,7 @@ public class Problema4 {
         System.out.println("Ingrese el valor Kilovatios por hora");
         valor = entrada.nextDouble();
         planilla = valor * consumo;
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.printf("Cliente %s con cedula %d debe cancelar el valor de: "
                 + "$%.1f\n", a, b, planilla);
         
@@ -59,8 +60,12 @@ public class Problema4 {
         System.out.println("Ingrese el valor del inmueble:");
         bien = entrada.nextDouble();
         predio = bien * 0.2;
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.printf("Cliente %s con cedula %d tiene un bien y mueble "
                 + "valorado en $%.0f y tiene que pagar de predio "
                 + "$%.0f\n", a, b, bien, predio);
     }
 }
+//INTEGRANTES
+//Denis Ruiz
+//Steveen Cuenca
