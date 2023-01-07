@@ -15,7 +15,6 @@ public class Problema7 {
     public static void main(String[] args) {
         String [] arreglo = obtenerArreglo();
         System.out.println("------------------------------------");
-        System.out.println("------------------------------------");
         System.out.println("\nEl arreglo:");
         for(int i = 0; i < arreglo.length; i++){
             System.out.printf("[%s] ", arreglo[i]);
